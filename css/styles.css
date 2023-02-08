@@ -44,7 +44,6 @@ ul {
 .nav-link {
   color: var(--color-primary);
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -59,6 +58,8 @@ ul {
 .header-contacts {
   font-style: normal;
   color: var(--color-bodytext);
+  letter-spacing: 0.02em;
+  
 }
 
 .header-contacts:hover {
@@ -91,11 +92,6 @@ ul {
   background: var(--color-pressed);
 }
 
-.advantages-text {
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -112,6 +108,10 @@ ul {
   color: var(--color-primary);
 }
 
+.section-description {
+  letter-spacing: 0.02em;
+}
+
 .team {
   background-color: var(--color-lightmode);
 }
@@ -121,7 +121,6 @@ ul {
 }
 
 .team-profession {
-  font-weight: 400;
   letter-spacing: 0.02em;
 }
 
@@ -163,7 +162,6 @@ ul {
   cursor: pointer;
 }
 
-.portfolio-text {
-  color: var(--color-bodytext);
+.section-description {
   letter-spacing: 0.02em;
 }
